@@ -1,4 +1,4 @@
-const socket = io("http://localhost:8000");
+const socket = io("https://mychat-8fy5.onrender.com");
 
 const form = document.querySelector('.message-form');
 const messageInput = document.getElementById('message-sent');
